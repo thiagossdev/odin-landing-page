@@ -6,6 +6,25 @@ body {
   flex-direction: column;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-header,
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .bg-primary {
   background-color: #1f2937;
 }
@@ -14,11 +33,74 @@ body {
   background-color: #e5e7eb;
 }
 
+.text-primary {
+  background-color: #1f2937;
+}
+
+.text-secondary {
+  color: #e5e7eb;
+}
+
 .text-white {
   color: #f9faf8;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 56rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.col {
+  width: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.links {
+  font-size: 1.125rem;
+}
+
+.hero {
+  padding: 5rem 0;
 }
 
 .hero-title {
   font-size: 3rem;
   font-weight: 900;
+}
+
+.hero-subtitle {
+  font-size: 1.125rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.footer {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

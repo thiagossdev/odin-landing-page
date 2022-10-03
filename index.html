@@ -10,23 +10,39 @@
 </head>
 <body>
   <div class="header bg-primary">
-    <div class="left-header">
-      <div class="logo text-white">
-        Header LOGO
+    <div class="container">
+      <div class="left-header">
+        <div class="logo text-white">
+          Header LOGO
+        </div>
       </div>
-    </div>
-    <div class="right-header">
-      <ul class="links">
-        <li><a href="google.com">link-one</a></li>
-        <li><a href="google.com">link-two</a></li>
-        <li><a href="google.com">link-three</a></li>
-      </ul>
+      <div class="right-header">
+        <ul class="links">
+          <li><a class="text-secondary" href="#one">Header link one</a></li>
+          <li><a class="text-secondary" href="#two">Header link two</a></li>
+          <li><a class="text-secondary" href="#three">Header link three</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="hero bg-primary">
-    <h1 class="hero-title text-white">Project: Landing Page</title>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="hero-title text-white">This website is awesome</h1>
+          <h2 class="hero-subtitle text-secondary">
+            This website has some subtext that goes here under the
+            main title. It's a smallet font the color is lower constrast
+          </h2>
+          <a href="#signup">Sign up</a>
+        </div>
+        <div class="col">
+          <img class="hero-image" src="./img/pizza-banner.jpeg" alt="Image">
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="footer bg-primary">
+  <div class="footer bg-primary text-white">
     Copyright &copy; The Odin Project ❤️
   </div>
 </body>
