@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-primary {
+  background-color: #1f2937;
+}
+
+.bg-secodary {
+  background-color: #e5e7eb;
+}
+
+.text-white {
+  color: #f9faf8;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
