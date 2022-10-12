@@ -96,6 +96,7 @@ a {
 
 .hero-subtitle {
   font-size: 1.125rem;
+  margin-bottom: 1.25rem;
 }
 
 .hero-image {
@@ -157,9 +158,60 @@ a {
   padding-right: 2.5rem;
 }
 
+.call {
+  padding: 6rem 0;
+}
+
+.call-section {
+  background-color: #3882F6;
+  border-radius: .5rem;
+  flex: auto;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.call-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.call-subtitle {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
 .footer {
   height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn {
+  padding: .375rem 2rem;
+  border-radius: .5rem;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background-color: #3882F6;
+  color: #f9faf8;
+  border-color:  #3882F6;
+}
+
+.btn-primary:hover {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.btn-call-action {
+  background-color: transparent;
+  color: #f9faf8;
+  border-color:  #f9faf8;
+}
+
+
+.btn-call-action:hover {
+  background-color: #f9faf8;
+  color: #3882F6;
 }
